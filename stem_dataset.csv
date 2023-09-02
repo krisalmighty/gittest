@@ -1,0 +1,11 @@
+id,prompt,A,B,C,D,E,answer
+0,When was the Steyr AUG adopted by the Austrian Army?,1989,1977,2004,2008,1980s,B
+1,What was the previous rifle that the Steyr AUG replaced in the Austrian Army?,StG 58,M193,7.62×51mm NATO,StG 77,SS109/M855,A
+2,When did the ban on importing the Steyr AUG into the United States end?,1989,2004,2008,1980s,6 years into the ban,C
+3,What is the rifling twist of the Steyr AUG?,1:9,5.56×45mm NATO,SS109/M855,M193,open-bolt,A
+4,What changes were made to the Steyr AUG to allow importation into the United States?,Gas-piston-operated action,Selective-fire,Pistol grip changed into a thumbhole stock,Gun barrel left unthreaded,Modular Weapon System,C
+5,What are the trigonometric functions used for?,Calculating distances between two points,Studying periodic phenomena,Solving differential equations,Modeling geometric shapes,Measuring angles in a triangle,B
+6,Which trigonometric functions are most widely used in modern mathematics?,"Cosecant, secant, and cotangent","Sine, cosine, and tangent","Sine, cosine, and cosecant","Tangent, secant, and cotangent","Cosecant, cosine, and cotangent",B
+7,"What are the reciprocal functions of the sine, cosine, and tangent?","Cosecant, secant, and cotangent","Cotangent, cosecant, and secant","Secant, cotangent, and cosecant","Cosecant, cotangent, and secant","Secant, cosecant, and cotangent",A
+8,How are trigonometric functions defined for acute angles?,Through infinite series,As solutions of differential equations,Using the unit circle,By calculating ratios of side lengths,By measuring angles in a triangle,D
+9,How are trigonometric functions defined for angles beyond acute angles?,Through infinite series,As solutions of differential equations,Using the unit circle,By calculating ratios of side lengths,By measuring angles in a triangle,C
