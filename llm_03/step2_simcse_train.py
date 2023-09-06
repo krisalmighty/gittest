@@ -104,9 +104,9 @@ print(f"tokenizers.__version__: {tokenizers.__version__}")
 print(f"transformers.__version__: {transformers.__version__}")
 from transformers import AutoTokenizer, AutoModel, AutoConfig
 from transformers import get_linear_schedule_with_warmup, get_cosine_schedule_with_warmup
-from adv_utils import FGM, PGD, AWP, EMA
+from llm.llm_03.adv_utils import FGM, PGD, AWP, EMA
 from iterstrat.ml_stratifiers import MultilabelStratifiedKFold
-from adv_utils import *
+from llm.llm_03.adv_utils import *
 
 device = torch.device('cuda:1') if torch.cuda.device_count() > 1 else torch.device('cuda:0')
 # device = torch.device('cpu')
