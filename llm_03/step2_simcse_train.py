@@ -104,9 +104,9 @@ print(f"tokenizers.__version__: {tokenizers.__version__}")
 print(f"transformers.__version__: {transformers.__version__}")
 from transformers import AutoTokenizer, AutoModel, AutoConfig
 from transformers import get_linear_schedule_with_warmup, get_cosine_schedule_with_warmup
-from llm.llm_03.adv_utils import FGM, PGD, AWP, EMA
+from adv_utils import FGM, PGD, AWP, EMA
 from iterstrat.ml_stratifiers import MultilabelStratifiedKFold
-from llm.llm_03.adv_utils import *
+from adv_utils import *
 
 device = torch.device('cuda:1') if torch.cuda.device_count() > 1 else torch.device('cuda:0')
 # device = torch.device('cpu')
@@ -161,9 +161,7 @@ df = pd.read_csv('retrive_dataset.csv')
 #df = df.drop_duplicates(subset=['text'])
 ori_dataset = pd.read_csv('ori_dataset.csv')
 neg_dataset =  pd.read_csv('neg.csv')
-# adding a new column 'label' to the df DataFrame and setting all its values to 1.
 df['label'] = 1
-# 为什么要用dev_id.npy来进行train_test.split
 dev_ids = np.load('dev_id.npy',allow_pickle=True)
 train_df = df[-df['url'].isin(dev_ids)]
 dev_df =  df[df['url'].isin(dev_ids)]
